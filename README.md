@@ -1,5 +1,5 @@
 # sun_kickstart
-MEAN stack kick start app
+MEAN stack kick start app with a mysql used as the RDMS
 
 # Install dependencies
 npm install
