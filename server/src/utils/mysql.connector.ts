@@ -16,10 +16,7 @@ export const init = () => {
            password: dataSource.DB_PASSWORD,
            database: dataSource.DB_DATABASE
         });
-
-        console.debug('MySql Adaptor Pool generated successfully');
     }catch(error) {
-        console.error('[mysql.connector][init][Error]: ', error);
         throw new Error(error + 'Failed to initialize pool');
     }
 };
